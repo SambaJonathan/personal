@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jonathan Samba | Personal Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #1a73e8, #0c5fd4);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background: white;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #1a73e8;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 5px solid #1a73e8;
+        }
+
+        button {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0c5fd4;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>Jonathan Samba</h1>
+    <p>Cybersecurity Graduate | Networking | Web & Server Security</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#goals">Goals</a>
+    <a href="#upgrade">Upgrades</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a cybersecurity graduate with a strong interest in secure systems,
+        networking, and web technologies. I enjoy building practical solutions,
+        learning continuously, and improving system security.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>Cybersecurity Fundamentals</li>
+        <li>Networking & Subnetting</li>
+        <li>Linux & Windows Server Basics</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python (Beginner – Security Scripting)</li>
+    </ul>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <strong>Cybersecurity Awareness Platform</strong>
+        <p>Educational platform with admin & user dashboards.</p>
+    </div>
+
+    <div class="card">
+        <strong>AI Surveillance Security System</strong>
+        <p>Gate vehicle & personal logging system for university security.</p>
+    </div>
+
+    <div class="card">
+        <strong>Personal Website</strong>
+        <p>This one-page personal portfolio.</p>
+    </div>
+</section>
+
+<!-- GOALS -->
+<section id="goals">
+    <h2>My Goals</h2>
+    <ul>
+        <li>Become a professional cybersecurity expert</li>
+        <li>Build secure web and server applications</li>
+        <li>Work in security operations or infrastructure</li>
+        <li>Start a tech-based business</li>
+    </ul>
+</section>
+
+<!-- UPGRADE SECTION -->
+<section id="upgrade">
+    <h2>What I Should Upgrade Next 🚀</h2>
+
+    <div class="card">
+        <strong>1️⃣ Design Upgrade</strong>
+        <p>
+            Move CSS to a separate file, use Tailwind or Bootstrap,
+            add animations and icons.
+        </p>
+    </div>
+
+    <div class="card">
+        <strong>2️⃣ Add a Profile Photo</strong>
+        <p>
+            Include a professional image to increase trust and visibility.
+        </p>
+    </div>
+
+    <div class="card">
+        <strong>3️⃣ Add a Download CV Button</strong>
+        <p>
+            Allow visitors to download your resume in PDF format.
+        </p>
+    </div>
+
+    <div class="card">
+        <strong>4️⃣ Backend Integration</strong>
+        <p>
+            Add Flask or Django for login, admin panel, and database.
+        </p>
+    </div>
+
+    <div class="card">
+        <strong>5️⃣ Security Enhancements</strong>
+        <p>
+            HTTPS, input validation, authentication, logging, firewalls.
+        </p>
+    </div>
+
+    <div class="card">
+        <strong>6️⃣ Host It Online</strong>
+        <p>
+            GitHub Pages (static) → VPS or Cloud (dynamic).
+        </p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: example@email.com</p>
+    <p>Phone: +260 XXX XXX XXX</p>
+
+    <button onclick="contactMessage()">Send Greeting</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Jonathan Samba | All Rights Reserved</p>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+    function contactMessage() {
+        alert("Thank you for visiting my website! I’ll get back to you soon 😊");
+    }
+</script>
+
+</body>
+</html>
